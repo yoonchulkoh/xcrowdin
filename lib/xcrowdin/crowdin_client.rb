@@ -1,3 +1,7 @@
+require "crowdin-api"
+require "logger"
+require "tmpdir"
+
 module Xcrowdin
   class CrowdinClient
     TEMP = Dir.tmpdir()

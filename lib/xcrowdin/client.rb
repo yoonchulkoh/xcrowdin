@@ -1,3 +1,7 @@
+require "tmpdir"
+require "zip"
+require "fileutils"
+
 module Xcrowdin
   class Client
     TEMP = Dir.tmpdir()
