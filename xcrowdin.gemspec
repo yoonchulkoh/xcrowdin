@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yoonchul.koh@gmail.com"]
 
   spec.summary       = "Xcode to Crowdin exporter and Cronwdin to Xcode Importer."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/yoonchulkoh/xcrowdin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
