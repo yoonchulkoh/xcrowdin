@@ -21,8 +21,22 @@ Or install it yourself as:
     $ gem install xcrowdin
 
 ## Usage
+```
+Commands:
+  xcrowdin help [COMMAND]                                                                                                                        # Describe available commands or one specific command
+  xcrowdin to_crowdin --api-key=API_KEY --crowdin-path=CROWDIN_PATH --langs=one two three --project-id=PROJECT_ID --xcode-project=XCODE_PROJECT  # Export from Xcode and upload to Crowdin.
+  xcrowdin to_xcode --api-key=API_KEY --crowdin-path=CROWDIN_PATH --langs=one two three --project-id=PROJECT_ID --xcode-project=XCODE_PROJECT    # Export from Crowdin and import to XCode.
+```
 
-TODO: Write usage instructions here
+Example
+```
+xcrowdin to_crowdin\
+ --api-key API_KEY\
+ --project-id PROJECT_ID\
+ --xcode-project  ~/PROJECT_DIRECTORY/PROJECT_NAME.xcodeproj\
+ --langs en jp\
+ --crowdin-path CROWDIN_PATH
+```
 
 ## Development
 
