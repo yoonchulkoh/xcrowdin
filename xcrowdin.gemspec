@@ -20,10 +20,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "bundler", "~> 1.15"
-  spec.add_dependency "rake", "~> 10.0"
-  spec.add_dependency "rspec", "~> 3.0"
   spec.add_dependency "crowdin-api"
   spec.add_dependency "rubyzip"
   spec.add_dependency "thor"
+
+  spec.add_development_dependency "bundler", "~> 1.15"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end
